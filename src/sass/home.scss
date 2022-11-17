@@ -1,0 +1,88 @@
+@import './variables.scss';
+
+.home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    h3, h4, span {
+        color: $white-color;
+    }
+
+    &__author {
+        padding-top: 1.5rem;
+    }
+
+    a {
+        color: $link-color;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .8rem;
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        h4 {
+            font-weight: 400;
+        }
+
+        span {
+            color: $primary-color;
+            font-weight: 400;
+        }
+    }
+
+    &__widgets {
+        display: flex;
+        align-items: flex-end;
+        gap: 1.5rem;
+        background-color: $body-background-color;
+
+        h5 {
+            color: $white-color;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    &__footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+.home__content--positive-value {
+    color: $success-color !important;
+}
+.home__content--negative-value {
+    color: $error-color !important;
+}
