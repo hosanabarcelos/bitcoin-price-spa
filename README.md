@@ -18,11 +18,10 @@
 Technologies used in development:
 
 - [Vue](https://vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
 - [Sass](https://sass-lang.com/)
 - [BEM](https://getbem.com/introduction/)
 - [CoinGecko API](https://www.coingecko.com/)
-- [Jest](https://jestjs.io/pt-BR/)
-- [Vue Test Utils](https://v1.test-utils.vuejs.org/)
 
 ## ⚙️ Setting
 
